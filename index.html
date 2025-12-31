@@ -17,14 +17,15 @@ nav{ display:flex; justify-content:center; flex-wrap:wrap; gap:20px; background-
 nav a{ color:white; text-decoration:none; font-weight:500; padding:10px 16px; border-radius:6px; transition:all 0.3s ease; }
 nav a:hover{ background-color: rgba(255,255,255,0.2); }
 
-main{ max-width:900px; margin:60px auto; padding:0 20px; }
-.bag-item{ padding:25px; border-bottom:1px solid #e5e5e5; transition:background 0.3s ease; font-size:18px; }
+main{ max-width:900px; margin:60px auto; padding:0 20px; display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+.bag-item{ padding:15px; border:1px solid #e5e5e5; transition:background 0.3s ease; font-size:18px; width:250px; text-align:center; cursor:pointer; background:#f9f9f9; border-radius:8px; }
 .bag-item:hover{ background-color:#f0f8ff; }
-.bag-item a{ text-decoration:none; color:var(--black); }
+.bag-item img{ width:100%; height:auto; border-radius:4px; margin-bottom:10px; }
+.bag-item a{ text-decoration:none; color:var(--black); font-weight:500; display:block; }
 
 footer{ border-top:1px solid #ccc; padding:25px; text-align:center; color:#555; }
 
-@media(max-width:600px){ header h1{ font-size:32px; } .bag-item{ font-size:16px; } }
+@media(max-width:600px){ header h1{ font-size:32px; } .bag-item{ font-size:16px; width:100%; } }
 </style>
 </head>
 
@@ -39,11 +40,36 @@ footer{ border-top:1px solid #ccc; padding:25px; text-align:center; color:#555; 
 </header>
 
 <main>
-  <div class="bag-item"><a href="https://stivangaming.github.io/luckybags-blindbags-bloxfruit/">Blox Fruit Lucky Block</a></div>
-  <div class="bag-item"><a href="https://stivangaming.github.io/luckybags-blindbags-stivan/">Stivan Lucky Block</a></div>
-  <div class="bag-item"><a href="https://stivangaming.github.io/luckybags-blindbags-bhutan/">Bhutan Lucky Block</a></div>
-  <div class="bag-item"><a href="https://stivangaming.github.io/luckybags-blindbags-stanislav/">Stanislav Lucky Block</a></div>
-  <div class="bag-item"><a href="https://stivangaming.github.io/luckybags-blindbags-linus/">Linus Lucky Block</a></div>
+  <div class="bag-item">
+    <a href="https://stivangaming.github.io/luckybags-blindbags-bloxfruit/">
+      <img src="https://i.ibb.co/Lzd8QJbZ/Untitled52-20251209162652.png" alt="Blox Fruit Lucky Block">
+      Blox Fruit Lucky Block
+    </a>
+  </div>
+  <div class="bag-item">
+    <a href="https://stivangaming.github.io/luckybags-blindbags-stivan/">
+      <img src="https://i.ibb.co/bgyqX8qQ/Untitled17-20251205172721.png" alt="Stivan Lucky Block">
+      Stivan Lucky Block
+    </a>
+  </div>
+  <div class="bag-item">
+    <a href="https://stivangaming.github.io/luckybags-blindbags-bhutan/">
+      <img src="https://i.ibb.co/qMF1Q4Ct/Untitled105-20251219152902.png" alt="Bhutan Lucky Block">
+      Bhutan Lucky Block
+    </a>
+  </div>
+  <div class="bag-item">
+    <a href="https://stivangaming.github.io/luckybags-blindbags-stanislav/">
+      <img src="https://i.ibb.co/pt6TFKQ/Untitled29-20251207211620.png" alt="Stanislav Lucky Block">
+      Stanislav Lucky Block
+    </a>
+  </div>
+  <div class="bag-item">
+    <a href="https://stivangaming.github.io/luckybags-blindbags-linus/">
+      <img src="https://i.ibb.co/Pv1YyqJH/Untitled59-20251210183022.png" alt="Linus Lucky Block">
+      Linus Lucky Block
+    </a>
+  </div>
 </main>
 
 <footer>© 2025 Lucky Bags</footer>
